@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>DinamicWebSLL</display-name>
+
+	<servlet>
+		<servlet-name>ClientiServlet</servlet-name>
+		<servlet-class>ro.petShop.servleturi.ClientiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ClientiServlet</servlet-name>
+		<url-pattern>/clientiServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AnimaleServlet</servlet-name>
+		<servlet-class>ro.petShop.servleturi.AnimaleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AnimaleServlet</servlet-name>
+		<url-pattern>/animaleServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>InserareClient</servlet-name>
+		<servlet-class>ro.petShop.servleturi.InserareClient</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InserareClient</servlet-name>
+		<url-pattern>/inserareClient</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AfisareClienti</servlet-name>
+		<servlet-class>ro.petShop.servleturi.AfisareClienti</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AfisareClienti</servlet-name>
+		<url-pattern>/afisareClienti</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CautaClienti</servlet-name>
+		<servlet-class>ro.petShop.servleturi.CautaClienti</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CautaClienti</servlet-name>
+		<url-pattern>/cautaClienti</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditeazaClient</servlet-name>
+		<servlet-class>ro.petShop.servleturi.EditeazaClient</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditeazaClient</servlet-name>
+		<url-pattern>/editeazaClient</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StergeClient</servlet-name>
+		<servlet-class>ro.petShop.servleturi.StergeClient</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StergeClient</servlet-name>
+		<url-pattern>/stergeClient</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GenerareCautare</servlet-name>
+		<servlet-class>ro.petShop.servleturi.GenerareCautare</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GenerareCautare</servlet-name>
+		<url-pattern>/generareCautare</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AfisareAnimale</servlet-name>
+		<servlet-class>ro.petShop.servleturi.AfisareAnimale</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AfisareAnimale</servlet-name>
+		<url-pattern>/afisareAnimale</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>InserareAnimal</servlet-name>
+		<servlet-class>ro.petShop.servleturi.InserareAnimal</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InserareAnimal</servlet-name>
+		<url-pattern>/inserareAnimal</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditeazaAnimal</servlet-name>
+		<servlet-class>ro.petShop.servleturi.EditeazaAnimal</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditeazaAnimal</servlet-name>
+		<url-pattern>/editeazaAnimal</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StergeAnimal</servlet-name>
+		<servlet-class>ro.petShop.servleturi.StergeAnimal</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StergeAnimal</servlet-name>
+		<url-pattern>/stergeAnimal</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CautaAnimal</servlet-name>
+		<servlet-class>ro.petShop.servleturi.CautaAnimal</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CautaAnimal</servlet-name>
+		<url-pattern>/cautaAnimal</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GenerareCautareAnimal</servlet-name>
+		<servlet-class>ro.petShop.servleturi.GenerareCautareAnimal</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GenerareCautareAnimal</servlet-name>
+		<url-pattern>/generareCautareAnimal</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BackToTheInsertClient</servlet-name>
+		<servlet-class>ro.petShop.servleturi.BackToTheInsertClient</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BackToTheInsertClient</servlet-name>
+		<url-pattern>/backToTheInsertClient</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BackToTheInsertAnimal</servlet-name>
+		<servlet-class>ro.petShop.servleturi.BackToTheInsertAnimal</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BackToTheInsertAnimal</servlet-name>
+		<url-pattern>/backToTheInsertAnimal</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BackToTheAllClients</servlet-name>
+		<servlet-class>ro.petShop.servleturi.BackToTheAllClients</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BackToTheAllClients</servlet-name>
+		<url-pattern>/backToTheAllClients</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BackToTheAllAnimals</servlet-name>
+		<servlet-class>ro.petShop.servleturi.BackToTheAllAnimals</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BackToTheAllAnimals</servlet-name>
+		<url-pattern>/backToTheAllAnimals</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>InapoiLaIndex</servlet-name>
+		<servlet-class>ro.petShop.servleturi.InapoiLaIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InapoiLaIndex</servlet-name>
+		<url-pattern>/inapoiLaIndex</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
